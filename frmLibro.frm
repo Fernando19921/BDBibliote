@@ -365,7 +365,7 @@ Private Sub cmdAceptar_Click()
 
     Dim sql As String
 
-    ' ?? Aquí está la diferencia: INSERT o UPDATE
+    ' UPDATE
     If EditandoID = 0 Then
         ' INSERT
         sql = "INSERT INTO Libros (Titulo, Autor, GeneroID, Calificacion, Leido, PorLeer, Recomendado, Prestado, PrestadoA, FechaPrestamo) VALUES (" & _
